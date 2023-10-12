@@ -14,8 +14,8 @@ const USER_CONFIG = {
   APP_SECRET: 'e42f6ff9d1625e03bb0782f2123a8e44',
 
   IS_SHOW_COLOR: true,
-
-  // PROVINCE: '成都',
+  
+  PROVINCE: '四川',
   CITY: '成都',
 
   USERS: [
@@ -93,7 +93,7 @@ const USER_CONFIG = {
 
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
-    key: 'b2475209cdfb09f96c347752e6ec4701',
+    key: 'eedea9a4b88ac83f7f33fca625e4c5c1',
     
     /** 天行API相关，需要config中配置 TIAN_API_KEY  */
     // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
