@@ -15,8 +15,8 @@ const USER_CONFIG = {
 
   IS_SHOW_COLOR: true,
   
-  PROVINCE: '上海',
-  CITY: '上海',
+  PROVINCE: '四川',
+  CITY: '成都',
 
   USERS: [
     {
@@ -53,7 +53,7 @@ const USER_CONFIG = {
   SWITCH: {
     /** 每日天气 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: true,
+    weather: false,
 
     /** 节假日 */
     // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
