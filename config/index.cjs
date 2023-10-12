@@ -6,16 +6,15 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-  // 请将以下代码按照图示粘贴到对应位置
-  USE_PASSAGE: 'push-deer',
+  
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx39339dc7c2dd926e',
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'e42f6ff9d1625e03bb0782f2123a8e44',
 
-  province: '四川',
-  city: '成都',
+  PROVINCE: '四川',
+  CITY: '成都',
 
   USERS: [
     {
@@ -24,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'PDU25972TkhOo0UQygQ5dWdB6tTx9HQ4S4iojHbLM',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: 'F5KjnPEAEf0O-8xDbPoTyZPjujmQovHfXKlKYbZH3iQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-26',
       festivals: [
@@ -40,30 +39,30 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'earthy_love_words', date: '2022-11-07' },
-        // 结婚纪念日
+        // 生日
         { keyword: 'birthday_message', date: '1999-11-26' },
       ],
     },
   ],
 
-  // SLOT_LIST: [
-  //   // 这样配置的话，就会每次发送这句话
-  //   { keyword: 'note_en', contents: 'I miss you every day!' },
-  //   // 这样配置的话，就会每次发送这句话
-  //   { keyword: 'notice', contents: '记得滴眼药水宝宝' },
-  //   // 这样配置的话，就会每次随机选一句话发送
-  //   {
-  //     keyword: 'note_ch',
-  //     contents: [
-  //       '因为太喜欢你，所以看谁都像是情敌。',
-  //       '申请成为你爱里的永久居民。',
-  //       '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-  //       '遇见你，就好像捡到了100斤的运气'
-  //     ],
-  //   }
-    // 你可以不断按格式往下增加
-    // ...
-  // ],
+  SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'note_en', contents: 'I miss you every day!' },
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'notice', contents: '记得滴眼药水宝宝' },
+    // 这样配置的话，就会每次随机选一句话发送
+    {
+      keyword: 'note_ch',
+      contents: [
+        '因为太喜欢你，所以看谁都像是情敌。',
+        '申请成为你爱里的永久居民。',
+        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
+        '遇见你，就好像捡到了100斤的运气'
+      ],
+    }
+    你可以不断按格式往下增加
+    ...
+  ],
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '',
 
