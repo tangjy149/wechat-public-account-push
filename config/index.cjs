@@ -25,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'obcz76WhCH7FRScC_Wobx2rarmJE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'NvJaZdXYsOh-GVYJs_KfUA-r6JAep93J02i6x54hftA',
+      useTemplateId: '9QJpf71MNJoRa2sBl4_baKRquF_G1bLN5HIR_TduZ_E',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-26',
       festivals: [
@@ -50,9 +50,25 @@ const USER_CONFIG = {
   ],
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'note_en', contents: 'I miss you every day!' },
+    { keyword: 'note_en', contents: [
+      'I miss you every day!' ,
+      'You are my today and all of my tomorrows.',
+      'You will never age for me, nor fade, nor die.',
+      'Let us flip the coin and see. Head, I am yours. Tail, you are mine.',
+      'Every time I see you, I fall in love all over again.',
+      'May there be enough clouds in yours life to make a beautiful sunset.',
+      'I need you like a heart needs a beat.',
+      'The time that you are my most fatal.'
+      ]},
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'notice', contents: '记得滴眼药水宝宝' },
+    { keyword: 'notice', contents: [
+      '天气变冷了，要多加衣服呀', 
+      'Happy Happy, 记得微笑。' ,
+      '记得按时吃饭哦！', 
+      '眼药水可别又忘了，笨',
+      '要做一个只记得快乐和知识点的人。'，
+      '别忘了今天的午餐'
+    ]},
     // 这样配置的话，就会每次随机选一句话发送
     {
       keyword: 'note_ch',
@@ -60,7 +76,12 @@ const USER_CONFIG = {
         '因为太喜欢你，所以看谁都像是情敌。',
         '申请成为你爱里的永久居民。',
         '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-        '遇见你，就好像捡到了100斤的运气'
+        '遇见你，就好像捡到了100斤的运气',
+        '想做你跌落的春天，做你的多巴胺，做你阖眼后吻上眸的晚安',
+        '我会在日落时想起你。',
+        '还有星河可以寄望，还有宇宙可以浪漫不止。',
+        '穿过西风与山河，安知甜与乐。',
+        '三分月辉两分云沙四分秋黛，还有一分你的眉眼，这才是我的秋天。'
       ],
     }
   ],
