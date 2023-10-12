@@ -29,6 +29,7 @@ const TEMPLATE_CONFIG = [
       {{birthday_message.DATA}}
       
       ---
+      温馨提示：记得滴眼药水呀！
       
       {{moment_copyrighting.DATA}}
       
