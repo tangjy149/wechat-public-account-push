@@ -15,8 +15,8 @@ const USER_CONFIG = {
 
   IS_SHOW_COLOR: true,
   
-  PROVINCE: '四川',
-  CITY: '成都',
+  PROVINCE: '上海',
+  CITY: '上海',
 
   USERS: [
     {
