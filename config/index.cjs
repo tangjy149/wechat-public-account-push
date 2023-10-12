@@ -48,7 +48,22 @@ const USER_CONFIG = {
       ],
     }
   ],
-
+  SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'note_en', contents: 'I miss you every day!' },
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'notice', contents: '记得滴眼药水宝宝' },
+    // 这样配置的话，就会每次随机选一句话发送
+    {
+      keyword: 'note_ch',
+      contents: [
+        '因为太喜欢你，所以看谁都像是情敌。',
+        '申请成为你爱里的永久居民。',
+        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
+        '遇见你，就好像捡到了100斤的运气'
+      ],
+    }
+  ],
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
